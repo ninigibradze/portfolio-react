@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WorkContainter = ({image, title, demo, code, userInfo}) => {
+const WorkContainter = ({image, title, demo, code, userInfo, comingSoon}) => {
     
   return (
     <div 
@@ -12,7 +12,10 @@ const WorkContainter = ({image, title, demo, code, userInfo}) => {
                 {title}
             </span>
             {userInfo && <p className='text-xs text-white tracking-wider'>Login - user 123</p>}
-            <div className='pt-8 text-center'>
+            {comingSoon && <p className='text-md font-bold text-white tracking-wider'>Comming Soon</p>}
+            
+            {!comingSoon && (
+                <div className='pt-8 text-center'>
                 <a href={demo} target="_blank" rel="noreferrer">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                         Demo         
@@ -24,6 +27,8 @@ const WorkContainter = ({image, title, demo, code, userInfo}) => {
                     </button>
                 </a>
             </div>
+            )}
+            
         </div>
     </div>
   )

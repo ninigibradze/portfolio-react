@@ -2,8 +2,7 @@ import React from 'react'
 import RealEstate from './../assets/real-estate.png'
 import todoApp from './../assets/todo-app.png'
 import calculator from './../assets/calculator.png'
-// import amazonE from './../assets/amazonE'
-import workimg from './../assets/workImg.jpeg'
+import amazonE from './../assets/amazon.png'
 import WorkContainter from './WorkContainter'
 
 export const Work = () => {
@@ -21,14 +20,15 @@ export const Work = () => {
             {/* add md:grid-cols-3 when you add new project to the portfolio */}
 
             {/* work display, grid items*/}                
-            <WorkContainter image={workimg} title='Amazon Clone Ecommerce' demo='/'
-            code='/' userInfo={false} />
+            <WorkContainter image={amazonE} title='Amazon Clone Ecommerce' demo='/'
+            code='/' userInfo={false} comingSoon={true} />
             <WorkContainter image={RealEstate} title='Real Estate Application' demo='https://ninigibradze.github.io/real-estate/'
-            code='https://github.com/ninigibradze/real-estate' userInfo={true} />
+            code='https://github.com/ninigibradze/real-estate' userInfo={true} comingSoon={false} />
             <WorkContainter image={todoApp} title='JS Todo app' demo='https://ninigibradze.github.io/todo-list-react/'
-            code='https://github.com/ninigibradze/todo-list-react'  userInfo={false}/>
+            code='https://github.com/ninigibradze/todo-list-react'  userInfo={false} comingSoon={false}/>
             <WorkContainter image={calculator} title='JS Calculator' demo='https://ninigibradze.github.io/calculator_ng/'
-            code='https://github.com/ninigibradze/calculator_ng' userInfo={false} />
+            code='https://github.com/ninigibradze/calculator_ng' userInfo={false} comingSoon={false} />
+            
 
             </div>
 
