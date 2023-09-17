@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react-app/static/css/main.e0927640.css",
-    "main.js": "/portfolio-react-app/static/js/main.09e9414b.js",
+    "main.js": "/portfolio-react-app/static/js/main.184b635f.js",
     "static/media/amazon.png": "/portfolio-react-app/static/media/amazon.4f24f16b7e712b84d4ca.png",
     "static/media/real-estate.png": "/portfolio-react-app/static/media/real-estate.41a3cd8c398d23c923ea.png",
     "static/media/calculator.png": "/portfolio-react-app/static/media/calculator.719f7f188257a9b44c7d.png",
@@ -15,10 +15,10 @@
     "static/media/javascript.png": "/portfolio-react-app/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-react-app/index.html",
     "main.e0927640.css.map": "/portfolio-react-app/static/css/main.e0927640.css.map",
-    "main.09e9414b.js.map": "/portfolio-react-app/static/js/main.09e9414b.js.map"
+    "main.184b635f.js.map": "/portfolio-react-app/static/js/main.184b635f.js.map"
   },
   "entrypoints": [
     "static/css/main.e0927640.css",
-    "static/js/main.09e9414b.js"
+    "static/js/main.184b635f.js"
   ]
 }
