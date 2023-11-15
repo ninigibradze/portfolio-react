@@ -29,7 +29,7 @@ const Skills = () => {
           <SkillsIcons image={git} title="GitHub" />
           <SkillsIcons image={tailwind} title="Tailwind CSS" />
           <SkillsIcons image={mui} title="Material Ui" />
-          <SkillsIcons image={typescript} title="TypeScript" />
+          {/* <SkillsIcons image={typescript} title="TypeScript" /> */}
         </div>
       </div>
     </div>
