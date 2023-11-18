@@ -3,15 +3,13 @@ import RealEstate from "./../assets/real-estate.png";
 import todoApp from "./../assets/todo-app.png";
 import calculator from "./../assets/calculator.png";
 import amazonE from "./../assets/amazon.png";
+import restImg from "./../assets/geriche_rest.png";
 import adminDashboard from "./../assets/admin-dashboard.png";
 import WorkContainter from "./WorkContainter";
 
 export const Work = () => {
   return (
-    <div
-      name="work"
-      className="w-full h-auto text-gray-300 bg-[#0a192f]"
-    >
+    <div name="work" className="w-full text-gray-300 bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#fc5657]">
@@ -39,6 +37,14 @@ export const Work = () => {
             demo="https://ninigibradze.github.io/real-estate/"
             code="https://github.com/ninigibradze/real-estate"
             userInfo={true}
+            comingSoon={false}
+          />
+          <WorkContainter
+            image={restImg}
+            title="Moders Restaurant App"
+            demo="https://ninigibradze.github.io/restaurant-app/"
+            code="https://github.com/ninigibradze/restaurant-app"
+            userInfo={false}
             comingSoon={false}
           />
           <WorkContainter
