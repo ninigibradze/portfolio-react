@@ -11,9 +11,9 @@ import SkillsIcons from "./SkillsIcons";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full bg-[#0a192f] text-gray-300">
+    <div name="skills" className="w-full py-40 bg-[#0a192f] text-gray-300">
       {/* container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-auto pt-[10%]">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-auto">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-[#fc5657] ">
             Skills
